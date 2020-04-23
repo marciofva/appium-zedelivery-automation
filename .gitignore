@@ -1,0 +1,18 @@
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# Eclipse
+.metadata
+.classpath
+.project
+bin/
+test-output/
+tmp/
+.loadpath
+
+# Report
+/allure-results/
+/test-output/

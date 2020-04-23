@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" >
+
+	<listeners>
+		<listener class-name="com.zedelivery.listener.Listener" />
+	</listeners>
+
+	<test name="Android Tests">
+		<parameter name="platform" value="android" />
+		<parameter name="deviceName" value="Galaxy" />
+		<classes>
+			<class name="com.zedelivery.tests.SearchForProducts" />
+		</classes>
+	</test>
+</suite>
